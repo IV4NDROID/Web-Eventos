@@ -1,0 +1,48 @@
+
+
+body {
+    background-color: #2F5663;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #E3DAC9;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    margin: 10px 0;
+    color: #E3DAC9;
+}
+
+p[style="text-align:right"] {
+    text-align: right;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #777;
+}
+
+div[style="text-align: center;"] {
+    text-align: center;
+}
+
+div img[src="NC1 (1) (1) (1).jpg"] {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}

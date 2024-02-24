@@ -1,0 +1,38 @@
+body {
+    background-color: #2F5663;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+
+img[src$="P1.png"],
+img[src$="Promo 2.png"] {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}

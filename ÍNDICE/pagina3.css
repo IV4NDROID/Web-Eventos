@@ -1,0 +1,82 @@
+body {
+    background-color: #2F5663;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.imagen-grande {
+    max-width: 90%; /* Limita el ancho de la imagen grande */
+    max-height: 90%; /* Limita la altura de la imagen grande */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    position: fixed; /* Fija la posición de la imagen */
+    top: 50%; /* Coloca la imagen en el centro verticalmente */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen exactamente en el centro */
+    z-index: 9999; /* Asegura que la imagen esté por encima de otros elementos */
+    border-radius: 8px; /* Agrega bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+h1, h2, h3 {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Ajuste de imágenes */
+img[src$="G1.jpg"],
+img[src$="G2.jpg"],
+img[src$="G3.jpg"],
+img[src$="G4.jpg"],
+img[src$="M1.jpg"],
+img[src$="M2.jpg"],
+img[src$="M3.jpg"],
+img[src$="M4.jpg"],
+img[src$="I1.jpg"],
+img[src$="i2.jpg"],
+img[src$="I3.jpeg"],
+img[src$="T1.jpg"],
+img[src$="T2.jpg"],
+img[src$="T3.jpg"],
+img[src$="B1.jpg"],
+img[src$="B2.jpg"],
+img[src$="B3.jpg"],
+img[src$="J1.jpg"],
+img[src$="J2.jpg"],
+img[src$="J3.jpg"] {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Ajuste de imágenes para la presentación de la galería */
+img[src$="G1.jpg"],
+img[src$="M1.jpg"],
+img[src$="I1.jpg"],
+img[src$="T1.jpg"],
+img[src$="B1.jpg"],
+img[src$="J1.jpg"] {
+    float: left;
+    clear: both;
+}
+
+/* Agregar espacio después de las imágenes */
+img {
+    margin-bottom: 20px;
+}

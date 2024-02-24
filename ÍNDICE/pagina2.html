@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofrecemos</title>
+    <link rel="stylesheet" href="pagina2.css">
+    
+</head>
+<body>
+    <img src="img2.png" >
+    <h1>¿Qué ofrecemos?</h1>
+    <p style="text-align:justify">La Hacienda Amalucan ha sido honrada con prestigiosos premios a lo largo de los años, reconocimientos que destacan su compromiso con la excelencia en eventos y la preservación de su rica historia. Estos premios son un testimonio de nuestro dedicado servicio y la calidad excepcional que ofrecemos a nuestros clientes.</p>
+
+        <!-- Formulario con opciones -->
+        <form action="procesar_opcion.php" name= Evento method="post">
+            <label for="opciones">Tipo de Evento:</label>
+            <select name="opciones" id="opciones">
+                <option value="opcion1">Boda</option>
+                <option value="opcion2">XV Años</option>
+                <option value="opcion3">Comunión o Bautizo</option>
+                <option value="opcion4">Evento Social</option>
+                <option value="opcion5">Empresarial</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+
+    <h2>Platillos</h2>
+    <p style="text-align:justify">Ofrecemos una experiencia culinaria excepcional que combina la riqueza de la tradición con la innovación gastronómica. Nuestro menú es una sinfonía de sabores frescos y cuidadosamente seleccionados que deleitan los paladares más exigentes. Desde exquisitas entradas hasta decadentes postres, cada platillo es una obra maestra de la cocina que refleja nuestro compromiso con la excelencia gastronómica.</p>
+
+    <h2>Montajes</h2>
+    <p style="text-align:justify">En el arte de la presentación, Hacienda Amalucan es insuperable. Ofrecemos una variedad de montajes que transforman nuestros espacios en escenarios personalizados para cada evento. Ya sea una boda romántica, una conferencia corporativa o una celebración íntima, nuestro equipo de diseño de eventos trabaja en estrecha colaboración contigo para crear una atmósfera única y memorable. Desde montajes clásicos hasta innovadoras instalaciones, nos aseguramos de que cada detalle contribuya a la magia del momento.</p>
+
+    <h2>Lugares</h2>
+    <p style="text-align:justify">Nuestros espacios en Hacienda Amalucan son más que lugares; son testigos de la historia y escenarios de momentos inolvidables. Desde los majestuosos jardines hasta los salones elegantes, cada rincón tiene su propia historia que contar. Ofrecemos una variedad de lugares que se adaptan a cualquier ocasión, ya sea una ceremonia al aire libre, una recepción bajo las estrellas o una reunión íntima junto a la chimenea. En Hacienda Amalucan, cada lugar es una invitación a la magia y la elegancia.</p>
+
+            <!-- Formulario con opciones -->
+        <form action="procesar_opcion.php" name = Lugar method="post">
+            <label for="opciones">Elige el Lugar:</label>
+            <select name="opciones" id="opciones">
+                <option value="opcion1">Iglesia</option>
+                <option value="opcion2">Teraza</option>
+                <option value="opcion3">Bóvedas</option>
+                <option value="opcion4">Jardín</option>
+                
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    
+        <script src="pagina2.js" defer></script>
+</body>
+</html>

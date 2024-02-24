@@ -1,0 +1,31 @@
+body {
+    background-color: #2F5663;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    text-align: justify;
+    padding: 20px;
+}
+
+hgroup {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    padding: 0 20px;
+}

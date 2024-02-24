@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilo del encabezado h1 */
+h1 {
+    color: #003366;
+}
+
+/* Estilo del formulario */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de las etiquetas del formulario */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Estilo del menú desplegable del formulario */
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón del formulario */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo de las secciones de imágenes */
+section {
+    margin: 20px auto;
+}
+
+/* Estilo de los títulos de las imágenes */
+h3 {
+    color: #003366;
+    margin: 20px 0 10px;
+}
+
+/* Estilo de las imágenes */
+img {
+    width: 100%;
+    max-width: 300px; /* Ajusta según tu preferencia */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de la imagen M3 */
+img[src="M3.jpg"] {
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Ajusta según tu preferencia */
+    max-height: 100%; /* Ajusta según tu preferencia */
+}
